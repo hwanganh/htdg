@@ -1,0 +1,47 @@
+/* đổi màu nền cho toàn bộ ứng dụng*/
+.root{
+    -fx-background-color:#B658B;
+}
+
+/* Làm đậm màu label */
+.label{
+    -fx-font-size: 15px;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+/* Làm đẹp nút bấm */
+.button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+}
+
+/* Làm đẹp bảng */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: transparent transparent #ddd transparent;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #e3f2fd;
+}
+
+/* Làm đẹp ô nhập liệu */
+.text-field {
+    -fx-background-radius: 5;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+}
