@@ -1,7 +1,17 @@
 package auction;
 
+import entity.Item;
+import entity.BidTransaction;
+import user.Bidder;
+import exception.AuctionClosedException;
+import exception.InvalidBidException;
+
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Auction {
     private Item item;
@@ -11,21 +21,5 @@ public class Auction {
     private Bidder highestBidder;
     private AuctionStatus status;
     private List<BidTransaction> bidHistory;
-
-    public synchronized boolean placeBid(Bidder bidder, double amount) {
-        // TODO: Implement synchronized bidding logic
-        return false;
-    }
-
-    private void checkAntiSniping() {
-        // TODO: Implement logic
-    }
-
-    public void closeAuction() {
-        // TODO: Implement logic
-    }
-
-    public void notifyObservers() {
-        // TODO: Implement logic
-    }
+    
 }

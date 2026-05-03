@@ -1,5 +1,5 @@
 package auction;
 
 public enum AuctionStatus {
-    ACTIVE, CLOSED, CANCELLED
+    OPEN, RUNNING, FINISHED, PAID, CANCELED
 }
