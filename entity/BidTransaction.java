@@ -1,5 +1,10 @@
+package entity;
+
 import java.time.LocalDateTime;
-import user.
+
+import auction.Auction;
+import user.*;
+
 public class BidTransaction extends Entity {
     private Bidder bidder;
     private Auction auction;

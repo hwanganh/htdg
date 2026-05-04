@@ -1,6 +1,7 @@
 package user;
 
 import auction.Auction;
+import entity.*;
 
 class Seller extends User {
     private String storeName;

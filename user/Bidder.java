@@ -1,6 +1,8 @@
 package user;
 
 import auction.Auction;
+import entity.*;
+
 
 public class Bidder extends User {
     private double accountBalance;
