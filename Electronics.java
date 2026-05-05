@@ -12,4 +12,4 @@ public class Electronics extends Item {
     public String getDetails() {
         return "Đồ điện tử: " + name + " - Bảo hành: " + warrantyMonths + " tháng - Giá khởi điểm: $" + startingPrice;
     }
-}
+} 
