@@ -3,7 +3,7 @@ package entity;
 public class Vehicle extends Item {
     private int manufacturedYear;
 
-    public Vehicle(String id, String name, double startingPrice, int manufacturedYear) {
+    public Vehicle(int id, String name, double startingPrice, int manufacturedYear) {
         super(id, name, startingPrice);
         this.manufacturedYear = manufacturedYear;
     }
